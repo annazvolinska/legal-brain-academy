@@ -1,0 +1,48 @@
+/* Legal Nodes — Spacing, radii, shadows, layout
+   Structured, modular, generous whitespace. Minimal shadows (or none). */
+:root {
+  /* Spacing scale (4px base) */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+  --space-12: 48px;
+  --space-16: 64px;
+  --space-20: 80px;
+  --space-24: 96px;
+  --space-32: 128px;
+
+  /* Radii — restrained. Buttons/cards are lightly rounded; chips near-square. */
+  --radius-xs: 4px;
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --radius-xl: 20px;
+  --radius-pill: 999px;
+
+  /* Borders */
+  --border-width: 1px; /* @kind spacing */
+  --border-width-strong: 2px; /* @kind spacing */
+
+  /* Shadows — brand favors minimal or none; these are the max used. */
+  --shadow-none: none;
+  --shadow-sm: 0 1px 2px rgba(15,47,54,0.06);
+  --shadow-card: 0 2px 8px rgba(15,47,54,0.08);
+  --shadow-lg: 0 16px 40px rgba(7,26,30,0.18);
+
+  /* Layout */
+  --container-max: 1200px;
+  --container-wide: 1320px;
+  --section-py: var(--space-24);
+  --gutter: var(--space-6);
+
+  /* Motion — subtle, no bounce */
+  --ease-standard: cubic-bezier(0.2, 0, 0.2, 1); /* @kind other */
+  --dur-fast: 120ms; /* @kind other */
+  --dur-base: 200ms; /* @kind other */
+  --dur-slow: 320ms; /* @kind other */
+}

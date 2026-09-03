@@ -1,0 +1,27 @@
+/* Legal Brain Academy — sub-brand of Legal Nodes.
+   Its own palette and display face; Inter still carries body/UI text.
+   Source: "Legal Brain Academy identity.pdf" (Connected Brain · v2). */
+:root {
+  /* ---- LBA palette ---- */
+  --lba-teal: #0D3B45;        /* primary surface, typography, all structure */
+  --lba-mint: #BFE6DD;        /* accent ONLY — one node, one line, the rules */
+  --lba-off-white: #F4F7F6;   /* light canvas for reverse artwork */
+  --lba-white: #FFFFFF;       /* cards, forms, and the mark on teal */
+
+  /* ---- LBA type ---- */
+  --lba-font-display: 'Poppins', var(--font-sans);
+  --lba-font-body: var(--font-sans); /* Inter, as in the parent brand */
+  /* ACADEMY is Regular tracked +20 (0.2em) */
+  --lba-ls-academy: 0.2em;
+
+  /* ---- LBA usage constants ---- */
+  --lba-symbol-min-height: 24px;   /* minimum symbol height */
+  --lba-lockup-min-width: 240px;   /* minimum horizontal lockup width */
+
+  /* ---- Semantic aliases ---- */
+  --lba-surface: var(--lba-teal);
+  --lba-surface-light: var(--lba-off-white);
+  --lba-accent: var(--lba-mint);
+  --lba-text-on-dark: var(--lba-white);
+  --lba-text-on-light: var(--lba-teal);
+}

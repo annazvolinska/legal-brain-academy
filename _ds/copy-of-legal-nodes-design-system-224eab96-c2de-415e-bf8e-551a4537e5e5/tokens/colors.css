@@ -1,0 +1,63 @@
+/* Legal Nodes — Color tokens
+   Primary brand palette. Dark green is the foundation of most surfaces;
+   yellow is the special accent reserved for CTAs and key highlights. */
+:root {
+  /* ---- Base palette ---- */
+  --ln-green: #0F2F36;          /* primary brand — trust, enterprise */
+  --ln-green-deep: #0A2227;     /* gradient bottoms, darker surfaces */
+  --ln-green-950: #071A1E;      /* deepest, near-black green */
+  --ln-teal: #17414A;           /* filled category chip / mid surface */
+  --ln-white: #FFFFFF;
+  --ln-mist: #E4E5E9;           /* light neutral canvas (light slides/sections) */
+  --ln-mist-2: #EDEEF1;         /* lighter card fill on mist */
+  --ln-slate: #456F78;          /* supporting light-blue: secondary text, borders, icons */
+
+  /* ---- Accent ---- */
+  --ln-yellow: #FFFC78;         /* accent — CTAs, highlights, selected words */
+  --ln-yellow-soft: #FBF7A8;    /* softened accent tint (category cards) */
+
+  /* ---- Neutrals (grays) ---- */
+  --ln-ink: #111111;            /* near-black headings on light surfaces */
+  --ln-gray-700: #333333;       /* body text on light */
+  --ln-gray-500: #6B7378;       /* muted text on light */
+  --ln-gray-300: #C9CDD2;       /* borders / neutral chip */
+  --ln-gray-200: #DDE0E4;       /* hairline borders on light */
+  --ln-line-dark: rgba(255,255,255,0.14); /* hairline borders on dark */
+
+  /* ---- Category tints (roadmap / infographic accents) ---- */
+  --ln-tint-yellow: #FFFC78;
+  --ln-tint-orange: #F6CB9C;
+  --ln-tint-blue:   #DDEAF1;
+  --ln-tint-pink:   #F2D0DD;
+  --ln-tint-teal:   #17414A;
+  --ln-tint-gray:   #C9CDD2;
+
+  /* ---- Semantic ---- */
+  --ln-success: #6DB33F;        /* check marks, positive */
+  --ln-danger:  #E5484D;        /* crosses, negative */
+
+  /* ---- Gradients ---- */
+  --ln-gradient-hero: linear-gradient(160deg, #0E5560 0%, #0F2F36 45%, #071A1E 100%); /* @kind color */
+  --ln-gradient-cover: linear-gradient(155deg, #0E5560 0%, #0F2F36 50%, #061518 100%); /* @kind color */
+
+  /* ---- Semantic aliases ---- */
+  --surface-primary: var(--ln-green);
+  --surface-deep: var(--ln-green-deep);
+  --surface-light: var(--ln-mist);
+  --surface-card: var(--ln-white);
+  --surface-card-muted: var(--ln-mist-2);
+
+  --text-on-dark: var(--ln-white);
+  --text-on-dark-muted: rgba(255,255,255,0.72);
+  --text-heading: var(--ln-ink);
+  --text-body: var(--ln-gray-700);
+  --text-muted: var(--ln-gray-500);
+  --text-accent: var(--ln-yellow);
+
+  --border-light: var(--ln-gray-200);
+  --border-dark: var(--ln-line-dark);
+  --border-strong: var(--ln-slate);
+
+  --accent: var(--ln-yellow);
+  --accent-ink: var(--ln-green);   /* text on yellow */
+}

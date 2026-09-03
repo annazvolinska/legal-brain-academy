@@ -1,0 +1,6 @@
+/* Legal Nodes — Webfonts
+   Brand font: Inter (Google Fonts). Loaded via CSS API for reliability.
+   If self-hosted woff2 files are provided later, swap these @import lines for @font-face rules. */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,400;0,14..32,500;0,14..32,600;0,14..32,700;0,14..32,800;0,14..32,900&display=swap');
+/* Poppins — display face for the Legal Brain Academy sub-brand lockups. */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
